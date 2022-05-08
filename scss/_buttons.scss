@@ -1,0 +1,17 @@
+@import "_mixins.scss";
+
+.botonSend{
+    border: map-get($botones, borde);
+    padding: map-get($botones, separacion);
+    margin-left: map-get($botones, margenIzq);
+    border-radius: map-get($botones, curvaBorde);
+    font-size: map-get($botones, tamanioFuente);
+    background-color: $colorNegro;
+    color: $colorBlanco !important;
+}
+  
+.botonReset{
+    @extend .botonSend;
+    @include colorFondoLetra($colorBlanco, $colorNegro);
+}
+
