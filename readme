@@ -1,0 +1,9 @@
+*En contact.html agregue un botón de reset y aplique la propiedad "extend" para obtener los atributos del botón "send".
+Luego aplique map-get y mixin como fue solicitado.
+
+*Seo:
+- Definí la etiqueta <title> de cada página del sitio.
+- Definí la etiqueta <meta name="description" content=...> de cada página del sitio (personalizada en cada una de ellas).
+- Definí la etiqueta <meta name="keywords" content=...> en cada página (aunque el profesor dijese que la etiqueta no se usa más).
+- Definí el atributo ALT de todas las imágenes del sitio.
+- Corroboré la distribución y uso de las etiquetas "H".
